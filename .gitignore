@@ -33,3 +33,5 @@ yarn-error.log*
 
 # Optional: Vite cache
 vite.config.ts.timestamp-*
+.vercel
+.env*.local

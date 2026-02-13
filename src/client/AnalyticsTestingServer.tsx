@@ -85,7 +85,7 @@ export const AnalyticsTestingServer = () => {
 
             <footer className="app-footer">
                 <p>
-                    📊 Analytics endpoint: <code>http://[your IP address]:3001/log</code>
+                    📊 Analytics endpoint: <code>{`${window.location.origin}/log`}</code>
                 </p>
                 <p>💡 Configure your app to send analytics to this server for testing</p>
             </footer>
